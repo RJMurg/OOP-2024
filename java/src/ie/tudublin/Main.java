@@ -39,7 +39,23 @@ public class Main
 
 		m.doCatStuff();
 
-		m.helloProcessing();
+		Dog legs = new Dog("Legs");
+
+		legs.speak();
+
+		Cat atuma = new Cat("Atuma");
+
+		atuma.speak();
+
+		Animal a = new Dog("A");
+		Animal b = new Dog("B");
+		Animal c = a;
+		a.setName("G");
+
+		System.out.println(a.getName());
+		System.out.println(c.getName());
+
+		// m.helloProcessing();
 	}
 	
 }
