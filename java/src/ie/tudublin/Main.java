@@ -5,10 +5,10 @@ package ie.tudublin;
 public class Main
 {
 
-	public void helloProcessing()
+	public void MyFirstProcessing()
 	{
 		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new HelloProcessing());
+        processing.core.PApplet.runSketch( a, new MyFirstProcessing());
     }
 
 	public void doDogStuff()
@@ -55,7 +55,7 @@ public class Main
 		System.out.println(a.getName());
 		System.out.println(c.getName());
 
-		// m.helloProcessing();
+		m.MyFirstProcessing();
 	}
 	
 }
