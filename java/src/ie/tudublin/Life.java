@@ -7,7 +7,7 @@ public class Life extends PApplet{
     LifeBoard LifeBoard; 
 
     public void setup(){
-        LifeBoard = new LifeBoard(100, 100, this);
+        LifeBoard = new LifeBoard(50, 50, this);
     }
 
     public void settings(){

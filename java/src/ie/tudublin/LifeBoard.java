@@ -32,6 +32,21 @@ public class LifeBoard {
         }
     }
 
+    public void setCell(int row, int col, boolean value){
+        if(row > 0 && col > 0 && row < rows && col < cols){
+            board[row][col] = value;
+        }
+    }
+
+    public boolean getCell(int row, int col, boolean value){
+        if(row > 0 && col > 0 && row < rows && col < cols){
+            return board[row][col];
+        }
+        else{
+            return false;
+        }
+    }
+
     public void update(){
         
     }
